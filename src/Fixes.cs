@@ -42,8 +42,6 @@ public partial class Fixes(ISwiftlyCore core) : BasePlugin(core)
         InitInputActivatorCrashFix();
         InitVoiceFix();
         InitSvCheatsFix();
-        InitJumpSpamFix();
-        InitRampFix();
     }
 
     public override void Unload()
